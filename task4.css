@@ -2,24 +2,25 @@
     margin: 0;
     padding: 0;
 }
-html,body{
-    height: 100%;
-}
+
 .wap{
     margin: 0 auto;
     height: 100%;
     background-color: #EFF0F4;
+}
+img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 /*头部*/
 .head{
     display: flex;
     justify-content:space-between;
     overflow: hidden;
-    position: fixed;
-    top:0;
-    height: 8%;
-    width: 90%;
-    padding: 0 5%;
+    width: 100%;
+    padding: 1% 0;
     background-color: #5FC0CD;
 }
 .head_title{
@@ -30,21 +31,16 @@ html,body{
     color: white;
 }
 .head_icon{
+    padding: 0 2%;
     font-size: 2rem;
     line-height: 4rem;
     color: white;
  }
 /*内容*/
-.content{
-    height: 100%;
-    position: relative;
-    top: 8%;
-}
 .content_bar{
     display: flex;
     justify-content: space-between;
     padding: 1% 0;
-    height: 6%;
     margin-top: 1%;;
     background: white;
 }
