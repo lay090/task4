@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="task6.css">
+    <title>护工个人主页（bootstrap）</title>
+</head>
+<body>
+<div class="container top" >
+
+    <div class="row" id="top_header">
+        <div class="col-lg-6 col-xs-6 col-lg-offset-3 col-xs-offset-3 btn-group-md" id="header_choose">
+            <button class="btn col-lg-3 col-xs-3 header_btn" id="header_btn_1">找雇主</button>
+            <button class="btn col-lg-3 col-xs-3 header_btn" id="header_btn_2">找护工</button>
+        </div>
+        <div class="col-lg-1 col-xs-1 col-lg-offset-10 col-xs-offset-10" style="padding: 0;text-align: center">
+            <img class="icon" src="images/head.png">
+        </div>
+
+    </div>
+    <div class="row" id="top_dropdown">
+        <ul class="col-xs-12 col-lg-12" id="dropdown_ul">
+            <li class="col-xs-4 col-lg-4 dropdown_li"><span>所在地</span><img class="dropdown_icon" src="images/list_more_07.png"></li>
+            <li class="col-xs-4 col-lg-4 dropdown_li"><span>食宿</span><img class="dropdown_icon" src="images/list_more_07.png"></li>
+            <li class="col-xs-4 col-lg-4 dropdown_li"><span>病人情况</span><img class="dropdown_icon" src="images/list_more_07.png"></li>
+        </ul>
+    </div>
+</div>
+
+<ul id="main">
+    <li class="content">
+        <ul>
+            <li class="content_one">服务日期</li>
+            <li class="content_two">
+                <div class="content_span_1">2015-7-5 至 2015-7-12</div>
+                <div id="span_2_icon"><img class="icon" src="images/content_more.png"></div>
+                <div class="content_span_2">25元/小时</div>
+            </li>
+            <li class="content_three">北京.通州.果园</li>
+        </ul>
+    </li>
+</ul>
+
+<div class="container" id="bottom">
+    <div class="row" >
+        <div class="col-lg-1 col-xs-1 col-lg-offset-2 col-xs-offset-2 bottom_one" ><img class="icon" src="images/bottom_home.png"><p id="bottom_p_1">首页</p></div>
+        <div class="col-lg-2 col-xs-2 col-lg-offset-2 col-xs-offset-2 icon"><img class="icon"  src="images/bottom_icon.png"></div>
+        <div class="col-lg-1 col-xs-1 col-lg-offset-2 col-xs-offset-2 bottom_one" ><img class="icon" src="images/bottom_person.png"><p id="bottom_p_2">我的</p></div>
+    </div>
+</div>
+</body>
+</html>

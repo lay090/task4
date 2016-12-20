@@ -1,0 +1,144 @@
+.top{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #c2c2c2;
+}
+#top_header{
+    position: relative;
+    padding: 1rem 0;
+    background-color: #5fc0cd;
+}
+#header_choose{
+    padding: 0;
+    position: absolute;
+    top:0.5rem;
+    bottom: 0.5rem;
+    display: inline-block;
+    border-radius: 5px;
+    background-color:#55A8B3;
+}
+.header_btn{
+    padding: 0.5rem 0;
+    width: 50%;
+    height: 100%;
+    font-size: 3rem;
+    border-radius: 5px;
+    text-align: center;
+}
+#header_btn_1{
+    display: inline-block;
+    background-color: #55A8B3;
+    color:white;
+}
+#header_btn_2{
+    display: inline-block;
+    background-color: white;
+    color: #55A8B3;
+}
+.icon{
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+#top_dropdown{
+    padding: 1rem 0;
+}
+#dropdown_ul{
+    padding: 0;
+    margin: 0;
+}
+.dropdown_li{
+    display: inline-block;
+    position: relative;
+    border-right: 1px solid #c2c2c2;
+    text-align: center;
+}
+.dropdown_li span{
+    font-size: 2rem;
+    color: #c2c2c2;
+}
+.dropdown_icon{
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 2%;
+}
+
+#main{
+    padding: 0;
+    margin: 9rem 0 0 0;
+    list-style: none;
+}
+.content{
+    padding: 1rem;
+    border-bottom: 1px solid #c2c2c2;
+}
+.content_one{
+    padding-bottom: 1rem;
+    list-style-image: url("images/content_icon1.png");
+    font-size: 2rem;
+    color: #c2c2c2;
+}
+.content_two{
+    list-style: none;
+    padding: 0.5rem 0;
+}
+.content_three{
+    list-style-image: url("images/content_icon2.png");
+    font-size: 2rem;
+    color: #c2c2c2;
+}
+.content_span_1{
+    display: inline-block;
+    font-size: 2rem;
+    color: black;
+}
+.content_span_2{
+    float: right;
+    display: inline-block;
+    margin-right: 1%;
+    font-size: 2.2rem;
+    color: red;
+}
+#span_2_icon{
+    float: right;
+    display: inline-block;
+    margin-right: 1%;
+    height: 2rem;
+}
+
+#bottom{
+    width: 100%;
+    padding: 1rem 0;
+    position:fixed;
+    bottom: 0;
+    border-top: 1px solid #c2c2c2;
+}
+.bottom_one{
+    padding: 1rem 0 0 0;
+    text-align: center;
+}
+#bottom_p_1{
+    padding: 0;
+    text-align: center;
+    font-size: 1rem;
+    color: #2aabd2;
+    margin-top: 1rem;
+}
+#bottom_p_2{
+    text-align: center;
+    font-size: 1rem;
+    color: #c2c2c2;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 40%;
+    }
+}
